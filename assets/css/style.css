@@ -1,0 +1,21 @@
+.navbar .navbar-nav > li > a {
+    padding: 14px 25px;
+    margin: 15px 3px;
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: #f1c5c5;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #f1c5c5;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #f1c5c5;
+}
+
+
+

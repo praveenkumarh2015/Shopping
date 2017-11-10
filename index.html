@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Shopping</title>
+    <link rel="ico" sizes="76x76" href="assets/img/ico.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/ico.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/gsdk.css" rel="stylesheet"/>
+    <link href="bootstrap3/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />  
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+
+        
+ 
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />  
+    <style>
+        .navbar-wrapper {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+            height: 51px;
+
+        }
+        .navbar-wrapper > .container {
+            padding: 0;
+            padding-bottom: 200px;
+        }
+
+        @media all and (max-width: 768px ){
+            .navbar-wrapper {
+                position: relative;
+                top: 0px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+ <div id="navbar">
+
+                 
+            
+
+        <div class="navbar-wrapper">
+                 
+          <div class="container">
+              <nav class="navbar navbar-inverse navbar-static-top"  style="background-image: url('assets/img/header/3.jpg');">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="index.html">Shopping</a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Electronics <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    <li class="dropdown-header"> <h5>Mobiles</h5> </li>
+                    <li><a href="mobiles.html">Samsung</a></li>
+                    <li><a href="mobiles.html">Motorola</a></li>
+                    <li><a href="mobiles.html">Apple</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    <li class="dropdown-header"> <h5>Top Wear</h5> </li>
+                    <li><a href="shirts.html">T-Shirts</a></li>
+                    <li><a href="shirts.html">Shirts</a></li>
+                    <li><a href="shirts.html">Kurtas</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header"> <h5>Bottom Wear</h5> </li>
+                    <li><a href="shirts.html">Jeans</a></li>
+                    <li><a href="shirts.html">Cargos</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    <li class="dropdown-header"> <h5>Ethnic Wear</h5> </li>
+                    <li><a href="sarees.html">Sarees</a></li>
+                    <li><a href="sarees.html">Kurtas & Kurtis</a></li>
+                    <li><a href="sarees.html">Anarkili Suits</a></li>
+                  </ul>
+                </li>
+
+              </ul>          
+
+              <ul class="nav navbar-nav navbar-right">
+                <li> <a href="#"> <i class="glyphicon glyphicon-log-in"></i> Sign In</a></li>
+                
+            </ul>
+         
+            </div><!-- /.navbar-collapse -->
+            </nav>
+          </div><!-- /.container-fluid -->
+        
+        </div>
+    </div><!--  end navbar -->
+ 
+
+
+ <div style="min-height: 50px;">
+      
+        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
+        top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('assets/img/loading.gif') no-repeat 50% 50%; background-color: rgba(0, 0, 0, .7);"></div>
+            <!-- Slides Container -->
+            <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                <div>
+                    <img u="image" src2="assets/img/header/1.jpg" />
+                    <div class="carousel-caption">
+                    <h3 class="animated bounceInDown">Shopping</h3>
+                    <p class="animated bounceInUp">
+                    No decision should be made on an empty shopping bag.
+                    </p>
+                    </div>
+                </div>
+                <div>
+                    <img u="image" src2="assets/img/header/2.jpg" />
+                    <div class="carousel-caption">
+                    <h3 style="color: black;">Shopping</h3>
+                    <p style="color: black;">
+                    Shopping to make oneself feel Happy!
+                    </p>
+                    </div>
+
+                </div>
+                <div>
+                    <img u="image" src2="assets/img/header/3.jpg" />
+                    <div class="carousel-caption">
+                    <h3>With love</h3>
+                    <p>
+                    Shop in the name of love.
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .jssorb051 .i {position:absolute;cursor:pointer;}
+                .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;stroke:#000;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.5;}
+                .jssorb051 .i:hover .b {fill-opacity:.7;}
+                .jssorb051 .iav .b {fill-opacity: 1;}
+                .jssorb051 .i.idn {opacity:.3;}
+            </style>
+            <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div>
+            </div>
+        
+            <style>
+                .jssora051 {display:block;position:absolute;cursor:pointer;}
+                .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+                .jssora051:hover {opacity:.8;}
+                .jssora051.jssora051dn {opacity:.5;}
+                .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+            </style>
+            <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div>
+           
+
+            
+        </div>
+      
+    </div>
+
+
+
+
+<div class="wrapper">
+  <div class="container-fluid" style="margin-top: 50px;">
+    <div class="row">
+
+          <div class="col-md-offset-1 col-md-2">
+            <h2 style=" text-align: center;">T-Shirts</h2>
+              <button class="btn btn-primary btn-md btn-round btn-group-justified">
+                <a href="shirts.html">View All</a>
+              </button>
+          </div>
+          <br>
+
+          <div class="col-md-3">
+            <div class="card card-product">
+              <div class="image">
+                  <div id="card-product-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                          <div class="item active">
+                              <center>
+                                <img src="assets/img/shirts/1.jpg" style=" width:160px; height: 320px;">
+                              </center>
+                          </div>
+
+                          <div class="item">
+                              <center>
+                                <img src="assets/img/shirts/2.jpg" style=" width:160px; height: 320px;">
+                            </center>
+                            </div>
+
+                          <div class="item">
+                            <center>
+                              <img src="assets/img/shirts/3.jpg" style=" width:200px; height: 320px; ">
+                            </center>
+                          </div>
+                    </div>
+                  </div>
+              </div>
+
+
+
+                  <div class="content">
+                    <p class="description">
+                      Tripr Solid Men's V-neck Multicolor T-Shirt
+                    </p>
+
+                      <div class="footer">
+                          <span class="price price-old">&#8377; 500</span>
+                          <span class="price price-new">&#8377; 450</span>
+                          <button class="btn btn-default btn-fill pull-right btn-xs btn-hover">
+                          <i class="fa fa-star"></i>
+                          </button>
+                    </div>
+                  </div>
+            </div> <!-- end card --> 
+          </div> <!--Col -->
+
+
+
+
+
+                <div class="col-md-3">
+                    <div class="card card-product">
+                      <div class="image">
+                        <div id="card-product-carousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <center><img src="assets/img/shirts/5.jpg" style=" width:160px; height: 300px; "></center>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="content">
+                      <p class="description">
+                         Campus Sutra Solid Men Round Neck Multicolor T-Shirt
+                      </p>
+
+                        <div class="footer">
+                          <span class="price price-old">&#8377; 600</span>
+                          <span class="price price-new">&#8377; 500</span>
+                          <button class="btn btn-default btn-fill pull-right btn-xs btn-hover">
+                              <i class="fa fa-star"></i>
+                          </button>
+                        </div>
+                    </div>
+                  </div> <!-- end card -->
+                </div> <!--Col -->
+
+
+
+
+                  <div class="col-md-3">
+                    <div class="card card-product">
+                      <div class="image">
+                        <div id="card-product-carousel" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                              <div class="item active">
+                                    <center><img src="assets/img/shirts/4.jpg" style=" width:180px; height: 300px; "></center>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                          <div class="content">
+                            <p class="description"> Leaf-Print Cotton, Silk-Blend Shirt and Cashmere-Blend Blanke</p>
+                            <div class="footer">
+                                <span class="price price-old">&#8377; 999</span>
+                                <span class="price price-new">&#8377; 500</span>
+                                <button class="btn btn-default btn-fill pull-right btn-xs btn-hover">
+                                <i class="fa fa-star"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- end card -->
+                  </div>
+          </div>
+
+
+          <div class="col-md-offset-1 col-md-2">
+                <h2 style=" text-align: center;">Sarees</h2>
+                  <button class="btn btn-primary btn-md btn-round btn-group-justified">
+                    <a href="sarees.html">View All</a>
+                  </button>
+            </div>
+            <br>
+
+            <div class="col-md-3">
+              <div class="card card-product">
+                <div class="image">
+                    <div id="card-product-carousel" class="carousel slide" data-ride="carousel">
+
+                      <div class="carousel-inner">
+
+                          <div class="item active">
+                              <center>
+                                <img src="assets/img/sarees/1.jpg" style=" width:200px; height: 320px;">
+                              </center>
+                          </div>
+
+                          
+                      </div>
+                  </div>
+
+              </div>
+
+
+
+        <div class="content">
+            <p class="description">
+               Aashvi Creation Embroidered Fashion Georgette Saree
+            </p>
+
+            <div class="footer">
+                <span class="price price-old">&#8377; 750</span>
+                <span class="price price-new">&#8377; 600</span>
+                <button class="btn btn-default btn-fill pull-right btn-xs btn-hover">
+                <i class="fa fa-star"></i>
+                </button>
+            </div>
+        </div>
+
+      </div> <!-- end card -->
+    </div>
+
+      <div class="col-md-3">
+        <div class="card card-product">
+
+        <div class="image">
+
+            <div id="card-product-carousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Wrapper for slides -->
+
+              <div class="carousel-inner">
+
+                <div class="item active">
+
+                  <center><img src="assets/img/sarees/2.jpg" style=" width:120px; height: 320px; "></center>
+
+                </div>
+
+                <div class="item">
+                              <center>
+                                <img src="assets/img/sarees/4.jpg" style=" width:220px; height: 320px;">
+                            </center>
+                          </div>
+
+                          <div class="item">
+                            <center>
+                              <img src="assets/img/sarees/5.jpg" style=" width:160px; height: 320px; ">
+                            </center>
+                          </div>
+
+
+              </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="content">
+
+
+            <p class="description">
+
+               Anugrah Floral Print Bollywood Cotton, Silk, Crepe Saree
+
+            </p>
+
+            <div class="footer">
+
+                <span class="price price-old">&#8377; 550</span>
+
+                <span class="price price-new">&#8377; 400</span>
+
+                <button class="btn btn-default btn-fill pull-right btn-xs btn-hover">
+
+                    <i class="fa fa-star"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div> <!-- end card -->
+      </div>
+
+      <div class="col-md-3">
+        <div class="card card-product">
+
+        <div class="image">
+
+            <div id="card-product-carousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Wrapper for slides -->
+
+              <div class="carousel-inner">
+
+                <div class="item active">
+
+                  <center><img src="assets/img/sarees/8.jpg" style=" width:150px; height: 320px; "></center>
+
+                </div>
+
+
+
+              </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="content">
+
+            
+
+            <p class="description">
+
+              Ishin Self Design Fashion Synthetic Georgette Saree
+
+            </p>
+
+            <div class="footer">
+
+                <span class="price price-old">&#8377; 800</span>
+
+                <span class="price price-new">&#8377; 600</span>
+
+                <button class="btn btn-default btn-fill pull-right btn-xs btn-hover">
+
+                    <i class="fa fa-star"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div> <!-- end card -->
+
+  </div>   
+
+<br>
+  <div class="col-md-offset-1 col-md-2">
+                <h2 style=" text-align: center;">Mobiles</h2>
+                  <button class="btn btn-primary btn-md btn-round btn-group-justified">
+                    <a href="mobiles.html">View All</a>
+                  </button>
+            </div>
+            <br>
+
+            <div class="col-md-3">
+              <div class="card card-product">
+                <div class="image">
+                    <div id="card-product-carousel" class="carousel slide" data-ride="carousel">
+
+                      <div class="carousel-inner">
+
+                          <div class="item active">
+                              <center>
+                                <img src="assets/img/mobiles/1.jpg" style=" width:180px; height: 320px;">
+                              </center>
+                          </div>
+
+                          
+                      </div>
+                  </div>
+
+              </div>
+
+
+
+        <div class="content">
+            <p class="description">
+               Moto G Plus 4th Gen (Black, 32 GB)
+            </p>
+
+            <div class="footer">
+                <span class="price price-old">&#8377; 10,999</span>
+                <span class="price price-new">&#8377; 9,999</span>
+                <button class="btn btn-default btn-fill pull-right btn-xs btn-hover">
+                <i class="fa fa-star"></i>
+                </button>
+            </div>
+        </div>
+
+      </div> <!-- end card -->
+    </div>
+
+      <div class="col-md-3">
+        <div class="card card-product">
+
+        <div class="image">
+
+            <div id="card-product-carousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Wrapper for slides -->
+
+              <div class="carousel-inner">
+
+                <div class="item active">
+
+                  <center><img src="assets/img/mobiles/4.jpg" style=" width:200px; height: 320px; "></center>
+
+                </div>
+
+              </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="content">
+
+
+            <p class="description">
+
+               Moto G Plus 4th Gen (Black, 32 GB)
+
+            </p>
+
+            <div class="footer">
+
+                <span class="price price-old">&#8377; 12,500</span>
+
+                <span class="price price-new">&#8377; 11,999</span>
+
+                <button class="btn btn-default btn-fill pull-right btn-xs btn-hover">
+
+                    <i class="fa fa-star"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div> <!-- end card -->
+      </div>
+
+      <div class="col-md-3">
+        <div class="card card-product">
+
+        <div class="image">
+
+            <div id="card-product-carousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Wrapper for slides -->
+
+              <div class="carousel-inner">
+
+                <div class="item active">
+
+                  <center><img src="assets/img/mobiles/3.jpg" style=" width:160px; height: 320px; "></center>
+
+                </div>
+
+
+
+              </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="content">
+
+            
+
+            <p class="description">
+
+              Moto G (3rd Generation) (White, 8 GB)
+
+            </p>
+
+            <div class="footer">
+
+                <span class="price price-old">&#8377; 11,999</span>
+
+                <span class="price price-new">&#8377; 10,999</span>
+
+                <button class="btn btn-default btn-fill pull-right btn-xs btn-hover">
+
+                    <i class="fa fa-star"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div> <!-- end card -->
+
+  </div>   
+      </div>
+</div>
+       
+
+
+<footer class="footer footer-big footer-transparent" style="background-image: url('assets/img/footer.jpg')">
+
+          
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                         
+                       <li style="list-style-type: none;">
+                            <h4 class="btn btn-social btn-round"> <i class="fa fa-phone"></i> Phone:  <small>887 01 03 095</small></h4>
+                        </li>
+
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <h5 class="title">Shopping</h5>
+                        <nav>
+                        <ul>
+                           <li>
+                                <a href="index.html" >
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mobiles.html">
+                                    Smartphone
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shirts.html">
+                                   Men
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sarees.html">
+                                   Women
+                                </a>
+                            </li>
+                            
+                            
+                        </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="title">Products</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="mobiles.html">
+                                      Samsung
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="sarees.html">
+                                       Sarees
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="shirts.html">
+                                        T-Shirts
+                                    </a>
+                                </li>
+                               
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-3">
+                                <li style="list-style-type: none;">
+                                    <h4 class="btn btn-social btn-round"> <i class="fa fa-envelope" aria-hidden="true"></i> E-mail: <small>praveenkumar.h2015@vit.ac.in</small> </h4>
+                                </li>
+                    </div>
+                </div>
+                
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="social-area text-center">
+                        <button class="btn btn-social btn-round">
+                            <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+                            <h6>Track Order</h6>
+                        </button>
+                       </div> 
+                    </div>
+                    <div class="col-md-4">
+                      <div class="social-area text-center">
+                        <button class="btn btn-social btn-round">
+                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                            <h6>Free & Easy Returns</h6>
+                        </button>
+                       </div> 
+                    </div>
+                    <div class="col-md-4">
+                      <div class="social-area text-center">
+                        <button class="btn btn-social btn-round">
+                            <i class="fa fa-ban" aria-hidden="true"></i>
+                            <h6>Online Cancellations</h6>
+                        </button>
+                       </div> 
+                    </div>
+                  </div>
+                </div>
+                  
+                <hr />
+                <div class="social-area text-center">
+                        <h5>Contact</h5>
+                        <a href="https://goo.gl/bFDdT7" target="_blank" class="btn btn-social btn-round">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+
+                        <a href="https://goo.gl/rvyoym" target="_blank" class="btn btn-social btn-round">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+
+                        <a href="http://praveen-kumar-h.cf" target="_blank" class="btn btn-social btn-round">
+                            <i class="fa fa-link"></i>
+                        </a>
+                    </div>
+
+                
+            </div>
+        </footer>
+                 
+
+
+   
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <script src="bootstrap3/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="bootstrap3/js/jssor.slider.min.js" type="text/javascript"></script>
+    <script src="assets/js/get-shit-done.js"></script>
+    <script type="text/javascript" src="bootstrap3/js/slider.js"></script>
+</body>
+</html>
